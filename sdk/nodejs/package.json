@@ -1,0 +1,44 @@
+{
+  "name": "@hitechcloud-vietnam/omnichannel-sdk",
+  "version": "1.0.0",
+  "description": "SDK TypeScript chính thức cho HiTechCloud Omnichannel API (hội thoại đa kênh)",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "src",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "prepublishOnly": "npm run build",
+    "test": "node --test"
+  },
+  "keywords": [
+    "hitechcloud",
+    "omnichannel",
+    "facebook",
+    "zalo",
+    "tiktok",
+    "instagram",
+    "messenger",
+    "chat",
+    "sdk",
+    "typescript"
+  ],
+  "author": "HiTechCloud Vietnam <support@hitechcloud.vn>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hitechcloud-vietnam/hitechcloud-omnichannel-sdk.git"
+  },
+  "homepage": "https://developers.hitechcloud.vn",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "@types/node": "^20.11.0"
+  }
+}

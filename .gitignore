@@ -1,0 +1,37 @@
+# Dependencies
+node_modules/
+vendor/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Build
+dist/
+build/
+*.egg-info/
+sdk/java/target/
+sdk/go/bin/
+
+# Lockfiles (SDK libraries — không commit lock)
+sdk/php/composer.lock
+sdk/nodejs/package-lock.json
+
+# Test / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+sdk/php/.phpunit.result.cache
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

@@ -1,0 +1,19 @@
+{
+  "name": "@hitechcloud-vietnam/omnichannel-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server cho HiTechCloud Omnichannel API",
+  "main": "server.js",
+  "bin": {
+    "hitechcloud-omnichannel-mcp": "server.js"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  }
+}
